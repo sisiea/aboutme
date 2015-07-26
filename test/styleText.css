@@ -1,0 +1,25 @@
+/*p.topText{
+	align:center;
+}*/
+div{
+	position:relative;
+}
+div span{
+    position:absolute;
+ 	text-align: middle;
+}
+.topText { 
+	position: absolute;
+    top:10%;
+    text-align: center;
+	color:#ffff99;
+	font-size:50px;
+	font-family:"Microsoft YaHei";
+    padding: 30px 0 30px;
+    width: 100%;
+}
+.topText p {
+    font-size: 45px;
+    color: #ffff99;
+}
+}
