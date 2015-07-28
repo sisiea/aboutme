@@ -1,0 +1,63 @@
+/*p.topText{
+	align:center;
+}*/
+body{
+    background-color: #7B7B7B;
+    text-align: center;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+.head{
+
+}
+.topPic{
+    position: relative;
+    width: 100%;
+}
+.topPic img{
+    position: relative;
+    width: 100%;
+    height: 455px;
+}
+.topText { 
+	position: absolute;
+    top:55px;
+    text-align: center;
+	color:#ffff99;
+    font-size: 45px;
+	font-family:"Microsoft YaHei";
+    width: 100%;
+}
+.topText p{
+    font-size: 30px;
+
+}
+.menu{
+    text-align: center;
+    background-color: #FAF819;
+    width:100%;
+    height: auto;
+}
+.nav{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+.nav li{
+/*    float: left;*/
+    width:100%;
+
+}
+.nav li:first-child{
+    position: relative;
+    width:650px;
+}
+#second {
+    position: relative;
+    left: 50%;
+}
