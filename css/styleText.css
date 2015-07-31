@@ -1,9 +1,10 @@
 /*p.topText{
 	align:center;
 }*/
+*{ margin:0px; padding: 0px; } 
 body{
-    background-color: #7B7B7B;
-    text-align: center;
+/*    background-color: #7B7B7B;
+    text-align: center;*/
 }
 .wrapper{
     width: 1200px;
@@ -24,7 +25,7 @@ body{
 }
 .topText { 
 	position: absolute;
-    top:15%;
+    top:55px;
     text-align: center;
 	color:#ffff99;
     font-size: 45px;
@@ -33,10 +34,55 @@ body{
 }
 .topText p{
     font-size: 30px;
-
 }
-}
-div span{
-    position:absolute;
-    text-align: middle;
+#nav { 
+font-family:"Microsoft YaHei"; 
+position: relative; 
+width: 600px; 
+height:56px; 
+font-size:20px; 
+color:#5E2612; 
+margin: 0 auto; 
+} 
+#nav ul { 
+list-style-type: none; 
+} 
+#nav ul li { 
+float: left; 
+position: relative; 
+} 
+#nav ul li a { 
+text-align: center; 
+border-right:1px solid #e9e9e9; 
+padding:20px; 
+display:block; 
+text-decoration:none; 
+color:#999; 
+} 
+#nav ul li ul { 
+display: none 
+} 
+#nav ul li:hover{ 
+    background:#6dc7ec; 
+} 
+#nav ul li:hover ul { 
+display: block; 
+position: absolute; 
+} 
+#nav ul li:hover ul li a { 
+display:block; 
+background:#12aeef; 
+color:#ffffff; 
+width: 110px; 
+text-align: center; 
+border-bottom: 1px solid #f2f2f2; 
+border-right: none; 
+} 
+#nav ul li:hover ul li a:hover { 
+background:#6dc7ec; 
+color:#fff; 
+} 
+.aboutMe img{
+    width:400px;
+    height:400px
 }
