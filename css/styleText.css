@@ -114,11 +114,11 @@ color:#fff;
   }
 #fullName{
     font-size: 45px;
-    color: #D94600;
+    color: #5B4C5B;
 }
 #shortDes{
     font-size: 20px;
-    color: #D94600;
+    color: #5B4C5B;
 }
 @media screen and (max-width: 1023px) { 
 .aboutMe img {
