@@ -93,7 +93,7 @@ color:#fff;
 }
 .content {
     float: left;
-    width:900px;
+/*    width:700px;*/
     margin-left: 20px;
 }
 .content h1{
@@ -101,7 +101,7 @@ color:#fff;
     color: #5B4C5B;
 }
 .content.text{
-    width:700px;
+    width:500px;
     height: 250px;
     overflow: scroll;
     overflow-x:none;
@@ -120,11 +120,14 @@ color:#fff;
     font-size: 20px;
     color: #D94600;
 }
-@media screen and (max-width: 1152px) { 
+@media screen and (max-width: 1023px) { 
 .aboutMe img {
     width: 100%;
 } 
 .content {
+    width: 100%;
+} 
+.content.text {
     width: 100%;
 } 
 }
