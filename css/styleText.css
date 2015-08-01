@@ -82,7 +82,49 @@ border-right: none;
 background:#6dc7ec; 
 color:#fff; 
 } 
+.aboutMe{
+    width: 100%;
+    background-color: #f3f3f3;
+}
 .aboutMe img{
+    float: left;
     width:400px;
-    height:400px
+    height:450px
+}
+.content {
+    float: left;
+    width:900px;
+    margin-left: 20px;
+}
+.content h1{
+    font-size: 47px;
+    color: #5B4C5B;
+}
+.content.text{
+    width:700px;
+    height: 250px;
+    overflow: scroll;
+    overflow-x:none;
+    font-size: 23px;
+    margin-left: 0px;
+    overflow-x: hidden;
+}
+.clear {
+  clear: both;
+  }
+#fullName{
+    font-size: 45px;
+    color: #D94600;
+}
+#shortDes{
+    font-size: 20px;
+    color: #D94600;
+}
+@media screen and (max-width: 1152px) { 
+.aboutMe img {
+    width: 100%;
+} 
+.content {
+    width: 100%;
+} 
 }
