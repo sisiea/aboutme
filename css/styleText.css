@@ -6,11 +6,6 @@ body{
 /*    background-color: #7B7B7B;
     text-align: center;*/
 }
-.wrapper{
-    width: 1200px;
-    margin: 0 auto;
-    text-align: left;
-}
 .head{
 
 }
@@ -167,6 +162,82 @@ color:#fff;
     font-size: 20px;
     color: #5B4C5B;
 }
+.skills1{
+    font-family:"Microsoft YaHei";
+    position: relative; 
+    width:900px;
+    margin: 0 auto;
+}
+.box{
+    width: 240px;
+    margin-left: 5px;
+    float: left;
+    display: inline;
+    padding: 20px;
+}
+
+.progress-bar {
+    background-color: #1a1a1a;
+    padding: 5px;
+    width: 235px;
+    margin: 5px 0;         
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
+}
+.progress-bar span {
+    text-align: center;
+    color: #eee;
+    display: inline-block;
+    height: 100%;
+    width:5px;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width 1s ease-in-out 0.5s ;    
+}
+.box h4{
+    text-align: center;
+    font-size: 30px;
+}
+.box p{
+    text-align: center;
+}
+.progress-bar.blue{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.progress-bar.blue span {
+    background-color: #34c2e3;
+}
+.progress-bar.blue.JS span {
+    width: 60%;    
+}
+.progress-bar.blue.C span {
+    width: 70%;    
+}
+.progress-bar.blue.cocos span {
+    width: 80%;    
+}
+.progress-bar.blue.PS span {
+    width: 40%;    
+}
+.progress-bar.blue.HC span {
+    width: 60%;    
+}
+.skillBox{
+    margin-top: 20px;
+}
+.skillBox h1{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 47px;
+    color: #5B4C5B;
+}
+
+
+
+
+
+
 @media screen and (max-width: 758px){
 .nav.stuck { 
 height:56px; 
@@ -177,7 +248,10 @@ display: block;
     height:0px; 
 }
 }
-@media screen and (max-width: 1023px) { 
+@media screen and (max-width: 1023px) {
+.content h1{
+    text-align: center;
+} 
 .aboutMe img {
     width: 100%;
 } 
@@ -187,4 +261,23 @@ display: block;
 .content.text {
     width: 95%;
 } 
+}
+
+@media screen and (max-width: 878px){
+.skillBox h1{
+    text-align: center;
+}
+.skills1{
+    width: 100%;
+}
+.box {
+    width: 500px;
+    float: none;
+}
+.progress-bar.blue {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 }

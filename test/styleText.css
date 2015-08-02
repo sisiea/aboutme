@@ -25,6 +25,7 @@ body{
     width: 10%;
 }
 .progress-bar.blue span {
+    text-align: center;
     background-color: #34c2e3;   
 }
 .progress-bar.red:hover span{
