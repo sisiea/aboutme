@@ -9,28 +9,31 @@ body{
     padding: 5px;
     width: 550px;
     margin: 50px 0;         
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
 }
 .progress-bar span {
     color: #eee;
     display: inline-block;
-    height: 100%;
+    height: 25px;
     width:5px;
-    border-radius: 3px;
+    border-radius: 8px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
     transition: width 1s ease-in-out 0.5s ;    
 }
-.progress-bar.blue:hover span{
+/*.progress-bar.blue:hover span{
     width: 10%;
-}
+}*/
 .progress-bar.blue span {
+    line-height: 25px;
     text-align: center;
     background-color: #34c2e3;   
 }
-.progress-bar.red:hover span{
+/*.progress-bar.red:hover span{
     width: 50%;
-}
+}*/
 .progress-bar.red span {
+    line-height: 25px;
+    text-align: center;
     background-color: #9e6e3a;   
 }
