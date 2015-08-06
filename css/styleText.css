@@ -24,12 +24,12 @@ body{
     height: 455px;
 }
 .topText { 
-	position: absolute;
+	   position: absolute;
     top:55px;
     text-align: center;
-	color:#ffff99;
+	   color:#5F1F0B;
     font-size: 45px;
-	font-family:"Microsoft YaHei";
+	   font-family:"Microsoft YaHei";
     width: 100%;
 }
 .topText p{
